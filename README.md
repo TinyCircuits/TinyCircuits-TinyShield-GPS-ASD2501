@@ -5,7 +5,7 @@ The design files are located under design_files/ for the TinyCircuits ASD2501 Re
 
 Format is in Cadsoft Eagle format - Eagle version 6.2 was used for the original design.
 
-For more infomation on this, check out the product page at Tiny-Circuits.com:  https://tiny-circuits.com/tiny-shield-gps.html
+For more infomation on this, check out the product page at Tiny-Circuits.com:  https://tinycircuits.com/collections/sensors/products/gps-tinyshield
 
 
 
