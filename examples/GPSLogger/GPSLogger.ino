@@ -1,21 +1,24 @@
-//-------------------------------------------------------------------------------
-//  TinyCircuits GPS TinyShield Logging Example
-//  Last updated 10 July 2018
-//
-//  This example uses logs GPS NMEA sentences to SD card. If it doesn't detect an SD
-//  card at startup, it will output data to the serial terminal.
-//  With the Telit SE868 V2 module with Glonass support, some messages come through
-//  as GN** sentences instead of GP**. These are changed back to GP** before logging
-//  so that they don't cause problems with programs like Google Earth.
-//  This version has a SoftwareSerial version modified for SAMD21 based boards like
-//  TinyScreen+ or the Arduino Zero.
-//
-//  Some GPS modules have been shipped with 4800 baud instead of 9600- try this if
-//  you see bad data.
-//
-//  Written by Ben Rose for TinyCircuits, http://TinyCircuits.com
-//
-//-------------------------------------------------------------------------------
+/*
+  TinyCircuits GPS TinyShield Logging Example
+  
+  This example uses logs GPS NMEA sentences to SD card. If it doesn't detect an SD
+  card at startup, it will output data to the serial terminal.
+  With the Telit SE868 V2 module with Glonass support, some messages come through
+  as GN** sentences instead of GP**. These are changed back to GP** before logging
+  so that they don't cause problems with programs like Google Earth.
+  This version has a SoftwareSerial version modified for SAMD21 based boards like
+  TinyScreen+ or the Arduino Zero.
+
+  Some GPS modules have been shipped with 4800 baud instead of 9600- try this if
+  you see bad data.
+
+  Written 10 July 2018
+  By Ben Rose
+  Modified 07 January 2019
+  By Hunter Hykes
+
+  https://TinyCircuits.com
+*/
 
 #include "GPS.h"
 #include <SD.h>

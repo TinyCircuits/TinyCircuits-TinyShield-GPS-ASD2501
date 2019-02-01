@@ -1,11 +1,11 @@
 # TinyCircuits TinyShield GPS Board
-# ASD2501 Rev3
+# ASD2501 Rev4
 
-These are the design files for the TinyCircuits ASD2501 Rev 3 PCB.  This is a TinyShield board that has a GPS module, local power supply, antenna and level shifters to receive GPS data.
+The design files are located under design_files/ for the TinyCircuits ASD2501 Rev 4 PCB.  This is a TinyShield board that has a GPS module, local power supply, antenna and level shifters to receive GPS data.
 
 Format is in Cadsoft Eagle format - Eagle version 6.2 was used for the original design.
 
-For more infomation on this, check out the product page at Tiny-Circuits.com:  https://tiny-circuits.com/tiny-shield-gps.html
+For more infomation on this, check out the product page at TinyCircuits.com:  https://tinycircuits.com/collections/sensors/products/gps-tinyshield
 
 
 
