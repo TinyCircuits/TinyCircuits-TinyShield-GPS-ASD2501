@@ -1,21 +1,23 @@
 /*
   TinyCircuits GPS TinyShield Logging Example
   
-  This example uses logs GPS NMEA sentences to SD card. If it doesn't detect an SD
-  card at startup, it will output data to the serial terminal.
+  This example logs GPS NMEA sentences to an SD card. If it doesn't detect an SD
+  card at startup, it will output data to the Serial Monitor.
   With the Telit SE868 V2 module with Glonass support, some messages come through
   as GN** sentences instead of GP**. These are changed back to GP** before logging
   so that they don't cause problems with programs like Google Earth.
-  This version has a SoftwareSerial version modified for SAMD21 based boards like
-  TinyScreen+ or the Arduino Zero.
+  
+  If you see bad data:
+  - Make sure the baud rate in the Serial Monitor is the same you see set in the below 
+    program for the SerialMonitorInterface - 115200
+  - Some GPS modules shipped before 2018 shipped with 4800 baud instead of 9600. Try changing 
+    this value in the top of the GPS.h file.
 
-  Some GPS modules have been shipped with 4800 baud instead of 9600- try this if
-  you see bad data.
-
-  Written 10 July 2018
-  By Ben Rose
-  Modified 07 January 2019
-  By Hunter Hykes
+  Written 10 July 2018 By Ben Rose
+  Modified 07 January 2019 By Hunter Hykes
+   - This update added SoftwareSerialZero files modified for SAMD21 based boards like
+     the TinyScreen+, TinyZero or Arduino Zero.
+  Modified May 2021 to clarify comments
 
   https://TinyCircuits.com
 */
